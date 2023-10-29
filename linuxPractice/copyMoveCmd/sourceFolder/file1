@@ -1,0 +1,31 @@
+commands and definitions 
+mkdir: it is used to create a folder or directory
+mkdir -p: it is used to create a folder or directory if it does not exist
+cd: change directory
+touch: it is used to create a file 
+vi filename: it is used to edit a file
+cp: it is used copy file from source file to destinition where file will present in both source and destinition
+mv: it is used to change a name file pr folder, and also copy file from source to destinition where only file present in destinition
+du -sh fileName:  it is used to display size or memory of file or directory
+du -sh *:it is used to display size or memory of all directory
+df -h: it is used to display size or memory of system
+df -h .: it is used to display size or memory of current drive
+free: it is used get information about system memory 
+ls: it is used list the file and folder without additional information
+ls -l:it is used to long list the file and folder with addintional information
+ls -lrt: recent modified file or folder will be added to bottom of list
+ls -lt: recent modified file or folder will be added to top of the list
+ls -a: it is used to display hidden file folder
+rm fileName:it is used delete a file
+rm -r folderNmae: used to delete folderName
+rm -rf folderName: used to delete folder with forcefully
+rm -ri *: used to delete folder with forcefilly but confimation of each file and folder will be asked
+cat fileName:used to display contnet of file
+sudo: it is is used to give the root permission
+chmod:it is used to change the permission of file or directory
+   rwx: 421
+     cmd: sudo chmod 777 fileName	
+	default permission of folder is 775
+	default permission of file is 664
+chown: it is used to change the ownership of file or directory
+	cmd: sudo chowm root:root fileName
